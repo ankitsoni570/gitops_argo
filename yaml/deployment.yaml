@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: app
-        image: gcr.io/pg-big-data-poc/gke-poc:a6ab608
+        image: gcr.io/pg-big-data-poc/gke-poc:0502cf8
         ports:
         - containerPort: 8080
