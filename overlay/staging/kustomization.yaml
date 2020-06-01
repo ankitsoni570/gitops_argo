@@ -1,11 +1,9 @@
 namespace: staging
 nameSuffix: -staging
-base:
-- ../../base/deployment.yaml
+bases:
+- ../../base
 commonLabels:
   app: spring-application-staging
 imageTags:
 - name: gcr.io/pg-big-data-poc/gke-poc
   newTag: 10e8ffd
-resources:
-- service.yaml
