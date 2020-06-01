@@ -1,3 +1,5 @@
+commonLabel:
+  app: spring-application
 resources:
 - deployment.yaml
 - service.yaml
