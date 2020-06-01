@@ -1,0 +1,11 @@
+namespace: production
+nameSuffix: -prod
+base:
+- ../../base/deployment.yaml
+commonLabels:
+  app: spring-application-production
+imageTags:
+- name: gcr.io/pg-big-data-poc/gke-poc
+  newTag: f273598
+resources:
+- service.yaml

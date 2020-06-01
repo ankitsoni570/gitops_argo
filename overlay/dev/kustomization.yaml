@@ -1,0 +1,11 @@
+namespace: dev
+nameSuffix: -dev
+base:
+- ../../base/deployment.yaml
+commonLabels:
+  app: spring-application-dev
+imageTags:
+- name: gcr.io/pg-big-data-poc/gke-poc
+  newTag: 0502cf8
+resources:
+- service.yaml
