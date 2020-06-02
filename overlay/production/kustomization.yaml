@@ -4,6 +4,7 @@ bases:
 - ../../base
 commonLabels:
   app: spring-application-production
-imageTags:
+images:
 - name: gcr.io/pg-big-data-poc/gke-poc
-  newTag: f273598
+  newName: gcr.io/pg-big-data-poc/gke-poc-production
+  newTag: 09be05d
