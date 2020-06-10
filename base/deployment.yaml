@@ -29,7 +29,7 @@ spec:
         - name: my-app
           securityContext:
             {}
-          image: "gcr.io/pg-big-data-poc/gke-poc:f273598"
+          image: "gcr.io/infosys-gcp-demo-project/gke-poc:c8bb0cf"
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
