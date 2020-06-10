@@ -5,6 +5,6 @@ bases:
 commonLabels:
   app: spring-application-staging
 images:
-- name: gcr.io/pg-big-data-poc/gke-poc
-  newName: gcr.io/pg-big-data-poc/gke-poc-staging
-  newTag: 2b37e56
+- name: gcr.io/infosys-gcp-demo-project/gke-poc
+  newName: gcr.io/infosys-gcp-demo-project/gke-poc-staging
+  newTag: 666ed34
