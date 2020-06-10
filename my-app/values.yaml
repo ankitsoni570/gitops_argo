@@ -5,10 +5,10 @@
 replicaCount: 2
 
 image:
-  repository: gcr.io/pg-big-data-poc/gke-poc
+  repository: gcr.io/infosys-gcp-demo-project/gke-poc
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: f273598
+  tag: c8bb0cf
 
 imagePullSecrets: []
 nameOverride: ""
