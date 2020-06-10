@@ -5,6 +5,6 @@ bases:
 commonLabels:
   app: spring-application-dev
 images:
-- name: gcr.io/pg-big-data-poc/gke-poc
-  newName: gcr.io/pg-big-data-poc/gke-poc-dev
-  newTag: 1bc8b52
+- name: gcr.io/infosys-gcp-demo-project/gke-poc
+  newName: gcr.io/infosys-gcp-demo-project/gke-poc-dev
+  newTag: 4654bcd
