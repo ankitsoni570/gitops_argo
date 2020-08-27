@@ -21,7 +21,7 @@ debug: false
 #   value: "1.0"
 
 # Fully qualified name to reach your Rancher server
-hostname: "" 
+hostname: rancher.ankit.com 
 serviceType: NodePort
 
 imagePullSecrets: []
