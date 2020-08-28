@@ -21,7 +21,7 @@ debug: false
 #   value: "1.0"
 
 # Fully qualified name to reach your Rancher server
-hostname: "35.192.35.179" 
+hostname: rancher.ankit.com 
 serviceType: LoadBalancer 
 
 imagePullSecrets: []
