@@ -22,7 +22,7 @@ debug: false
 
 # Fully qualified name to reach your Rancher server
 hostname: rancher.ankit.com 
-serviceType: LoadBalancer 
+serviceType: ClusterIP 
 
 imagePullSecrets: []
 # - name: secretName
