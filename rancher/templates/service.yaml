@@ -12,6 +12,7 @@ spec:
   - port: 80
     targetPort: 80
     protocol: TCP
+    name: http
   type: {{ .Values.serviceType }} 
   selector:
     app: {{ template "rancher.fullname" . }}
