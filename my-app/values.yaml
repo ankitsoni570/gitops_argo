@@ -8,7 +8,7 @@ image:
   repository: gcr.io/infosys-gcp-demo-project/gke-poc
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 5c87ee
+  tag: 08d5c75
 
 imagePullSecrets: []
 nameOverride: ""
